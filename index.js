@@ -18,13 +18,13 @@ const sorter = function(data, callback) {
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = function(list) {
-	return list.sort()
+	list.sort()
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = function(list) {
-	return list.sort().reverse()
+	list.sort().reverse()
 };
 
 // ! JANGAN DIMODIFIKASI
