@@ -7,8 +7,8 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "2. Nama"
 // ...
 const sorter = function(data, callback) {
-	const initial = [...data]
-	const result = callback(initial)
+	const result = [...data]
+	callback(result)
 	for (let i = 0; i < result.length; i++) {
 		result[i] = `${i + 1}. ${result[i]}`
 	}
