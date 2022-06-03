@@ -24,7 +24,7 @@ const sortAscending = function(list) {
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = function(list) {
-	return list.reverse()
+	return list.sort().reverse()
 };
 
 // ! JANGAN DIMODIFIKASI
